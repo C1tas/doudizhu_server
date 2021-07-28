@@ -3,7 +3,7 @@
 #include "utils.h"
 #include "game_room.h"
 #include "database.h"
-#include "../logging/logger.h"
+#include "./logging/logger.h"
 namespace doudizhu {
 GameManager::GameManager() :
     players_(),

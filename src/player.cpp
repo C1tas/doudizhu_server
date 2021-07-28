@@ -1,6 +1,6 @@
 #include "player.h"
 #include "utils.h"
-#include "../logging/logger.h"
+#include "./logging/logger.h"
 namespace doudizhu {
 Player::Player(TcpConnection::Pointer conn) :
     conn_(conn),

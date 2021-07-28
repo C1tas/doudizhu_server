@@ -1,6 +1,6 @@
 #include "cards_factory.h"
 #include "cards_algo.h"
-#include "../logging/logger.h"
+#include "./logging/logger.h"
 namespace doudizhu {
 
 

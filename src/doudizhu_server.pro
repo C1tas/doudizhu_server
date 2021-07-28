@@ -4,15 +4,18 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 QMAKE_CXXFLAGS += -std=c++11
+QMAKE_CXXFLAGS += -static -static-libstdc++ -static-libgcc
 QMAKE_CXXFLAGS +=  -Wno-unused-parameter
 QMAKE_CXXFLAGS +=  -Wno-unused-function
 
+QMAKE_LFLAGS += -static -static-libstdc++ -static-libgcc
+
 LIBS += -lpthread
-LIBS += -lboost_coroutine
-LIBS += -lboost_context
-LIBS += -lboost_filesystem
-LIBS += -lboost_thread
-LIBS += -lboost_system
+# LIBS += -lboost_coroutine
+# LIBS += -lboost_context
+# LIBS += -lboost_filesystem
+# LIBS += -lboost_thread
+# LIBS += -lboost_system
 
 
 

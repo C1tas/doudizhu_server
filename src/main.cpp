@@ -1,8 +1,8 @@
 #include <iostream>
 #include "simple_test.h"
 #include "tcp_server.h"
-#include "../logging/logger.h"
-#include "../logging/log_recorder.h"
+#include "./logging/logger.h"
+#include "./logging/log_recorder.h"
 //#include <boost/coroutine/all.hpp>
 
 using namespace std;

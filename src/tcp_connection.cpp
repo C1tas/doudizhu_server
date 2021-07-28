@@ -3,7 +3,7 @@
 #include <functional>
 #include <string>
 
-#include "../logging/logger.h"
+#include "./logging/logger.h"
 namespace doudizhu {
 
 TcpConnection::TcpConnection(io_service &io_service) :
